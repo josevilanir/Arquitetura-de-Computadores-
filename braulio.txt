@@ -1,3 +1,0 @@
-sub $v0,$a1,$a2
-add $t1,$0,$k0
-add $s0,$gp,$t8
