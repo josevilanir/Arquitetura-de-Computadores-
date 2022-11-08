@@ -1,3 +1,4 @@
+
 def binario(x):
   dividendo = int(x)
   numero_digitado = dividendo
