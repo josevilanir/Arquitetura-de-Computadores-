@@ -3,3 +3,8 @@ add $t1,$0 ,$k0
 add $s0,$gp,$t8
 div $s0,$t1
 syscall
+and $t4,$k0,$ra
+mul $t4,$k0,$ra
+nor $s0,$gp,$t8
+ori $s0,$gp,40
+sll $s0,$gp,31
