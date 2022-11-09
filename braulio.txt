@@ -1,0 +1,28 @@
+sub $v0,$a1,$a2
+add $t1,$0 ,$k0
+add $s0,$gp,$t8
+div $s0,$t1
+syscall
+nop
+and $t4,$k0,$ra
+mul $t4,$k0,$ra
+nor $s0,$gp,$t8
+ori $s0,$gp,4
+sll $s0,$gp,3
+slt $t4,$k0,$ra
+sra $s0,$gp,3
+srl $s0,$gp,15
+xor $s0,$t2,$a1
+addi $s0,$gp,510
+addu $s0,$gp,$t8
+andi $v0,$a1,70
+divu $s0,$t1
+mult $s0,$t1
+slti $v0,$a1,32
+sltu $s0,$t2,$a1
+subu $s0,$t2,$a1
+xori $v0,$a1,32
+addiu $v0,$a1,70
+multu $s0,$t1
+sltiu $s0,$gp,40
+or $s0,$t2,$a1
